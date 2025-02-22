@@ -9,18 +9,18 @@ body {
     width: 100%;
     height: 700px; /* Aumentar altura */
     background: #ffc554;
-    transform: skewY(-5deg);
     position: relative;
+    display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
 }
 .Presentacion .img {
     position: absolute;
-    bottom: 8%;  /* Mantén o ajusta si es necesario */
+    top: center;  /* Mantén o ajusta si es necesario */
     right: 5%;
-    width: 400px;  /* Aumenta el tamaño */
-    height: 400px; /* Aumenta el tamaño */
+    width: 500px;  /* Aumenta el tamaño */
+    height: 500px; /* Aumenta el tamaño */
     border-radius: 50%; /* Mantiene forma circular */
     overflow: hidden;
     display: flex;
@@ -38,21 +38,20 @@ body {
     width: 50%;
     text-align:left;
     position: relative;
-    transform: skewY(5deg); /* Contrarresta la inclinación del padre */
 }
 
 .Presentacion .contenido .p-1 {
     color: #000814;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
-    font-size: 100px;
+    font-size: 200px;
     margin: 0;
 }
 
 .Presentacion .contenido .p-2 {
     color: #000814;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 75px;
+    font-size: 125px;
     margin: 0;
 }
 
@@ -62,6 +61,7 @@ body {
     background: #a2d2ff;
     color: #000814;
     margin: 5% auto;
+    margin-left: 0;
     padding: 20px;
     position: relative; /* Asegura que esté en el flujo normal */
     font-size: 150px;
@@ -72,7 +72,7 @@ body {
     text-align: center;
     font-weight: bolder;
     border-bottom: 2px #000814 solid;/*crea una linea solida con solid o con dashed para que sea punteada*/
-    font-size: 100px;
+    font-size: 150px;
 }
 
 .info .nombre{
@@ -110,6 +110,7 @@ body {
     background: #a2d2ff;
     color: #000814;
     margin: 5% auto;
+margin-right: 0;
     padding: 20px;
     font-size: 150px;
     position: relative; /* Asegura que esté en el flujo normal */
@@ -158,6 +159,7 @@ body {
     background: #a2d2ff;
     color: #000814;
     margin: 5% auto;
+    margin-left: 0;
     padding: 20px;
     font-size: 150px;
     position: relative; /* Asegura que esté en el flujo normal */
