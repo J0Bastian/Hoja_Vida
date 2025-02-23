@@ -19,8 +19,8 @@ body {
     position: absolute;
     top: center;  /* Mantén o ajusta si es necesario */
     right: 5%;
-    width: 500px;  /* Aumenta el tamaño */
-    height: 500px; /* Aumenta el tamaño */
+    width: 500px;
+    height: 500px;
     border-radius: 50%; /* Mantiene forma circular */
     overflow: hidden;
     display: flex;
