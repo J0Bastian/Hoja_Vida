@@ -1,1 +1,5 @@
-
+mkdir -p assets
+# mueve el archivo descargado a assets/ (hazlo con el explorador o el comando que uses)
+git add assets/lenguajes_personalizados.png
+git commit -m "Añade gráfico lenguajes personalizados (HTML 40, Java 30, Python 15)"
+git push
